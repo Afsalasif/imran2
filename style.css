@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'lato', sans-serif;
+    color: #505962;
+    max-width: 100%;
+    
+    
+}
+.offset::before{
+    height: 4rem;
+    margin-top: -4rem;
+    content: '';
+    display: block;
+}
+.narrow{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+/*navbar*/
+.navbar{
+    max-width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgba(0, 0,0, .6)!important;
+}
+.navbar .navbar-brand p{
+    color: #1ebba3;
+    text-align: center;
+    font-size: 1.8rem;
+
+    
+}
+.navbar .navbar-brand p span{
+    color: crimson;
+}
+.navbar-nav{
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#1ebba3
+}
+/*end navbar*/
+/*slider*/
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-caption{
+    position: absolute;
+    top:38%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+.carousel-caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+.jumbotron{
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+h3.heading span{
+    color: crimson;
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+/*portfolio*/
+.portfolio img{
+    max-width: 100%;
+    transition: transform .5s ease;
+   
+
+}
+.row.no-padding [class*=col-]{
+    padding: 0;
+}
+.portfolio img:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+.portfolio{
+    overflow: hidden;
+}
+.card{
+    margin: 2rem;
+}
+/*contact*/
+footer{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+footer h1{
+   font-size: 2rem;
+    height: 3rem;
+    margin: 1.5rem 0;
+    color: teal;
+   margin-left: 20%;
+}
+footer h1 span{
+    color: crimson;
+}
+footer a img{
+ width: 1.7rem;
+ height: 1.7rem;
+
+}
+hr.socket{
+    border-top: .2rem solid #666b71;
+    width: 100%;
+
+}
+footer .r2{
+    margin-left: 45%;
+}
+footer .r1{
+    margin-left: 35%;
+}
+#team .card-body{
+    align-items: center;
+}
+
+
